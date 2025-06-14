@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>CAIMÁN</title>
+  <meta name="description" content="ANIMALES EN PELIGRO DE EXTINCIÓN" />
+  <meta name="author" content="Patricio" />
+  <meta name="keywords" content="ANIMALES EN PELIGRO DE EXTINCIÓN" />
+  <style>
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f3f4f6;
+      color: #333;
+    }
+    header {
+      background-image: url(img/pan.jpg);
+	  background-size: cover;
+background-position: center;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      background-color: #1a620a;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .contenido {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 30px auto;
+      width: 90%;
+      gap: 20px;
+    }
+    aside {
+      width: 20%;
+      padding: 15px;
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #2d3436;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section {
+      width: 60%;
+      background-color: #9abf92;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    section h1 {
+      color: black;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    section h3 {
+      color: #6c5ce7;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+      background-color:  #97c88c ;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #2d3436;
+      border-left: 10px solid #1a620a;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .texto1 {
+      background-color: #97c88c ;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: bold;
+      color:black;
+      border-left: 6px solid #1a620a;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    img {
+       width: 540px;
+      height: 300px;
+      float: center;
+      margin-left: 15px;
+    }
+    footer {
+      background-color: #2d3436;
+      color:black;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+    @media screen and (max-width: 768px) {
+      .contenido {
+        flex-direction: column;
+        align-items: center;
+      }
+      aside, section {
+        width: 100%;
+      }
+      img {
+        float: none;
+        display: block;
+        margin: 0 auto 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>CAIMÁN</h1>
+</header>
+<nav>
+  <ul>
+   <li><a class="active" href="index.html">INICIO</a></li>
+    <li><a href="venado.html">VENADO</a></li>
+    <li><a href="caiman.html">CAIMAN</a></li>
+    <li><a href="pavademonte.html">PAVA DE MONTE</a></li>
+	<li><a href="sapos.html">SAPOS</a></li>
+	<li><a href="tucunare.html">TUCUNARE</a></li>
+  </ul>
+</nav>
+<div class="contenido">
+  <aside style="background-color:#9abf92">
+    <h3>CLASIFICACIÓN CIENTÍFICA</h3>
+    <p>El caimán pertenece a la familia Alligatoridae, dentro del orden Crocodylia. Su nombre científico varía por especie, siendo <em>Caiman crocodilus</em> uno de los más conocidos. Habita principalmente en ríos y humedales de América Latina.</p>
+  </aside>
+  <section>
+    <p class="texto1">
+      <img src="img/cai.jpg" class="imagen1">
+		El caimán es un reptil semiacuático que puede llegar a medir más de 2 metros de largo. Su cuerpo es alargado, con una piel escamosa y una poderosa mandíbula.
+    </p>
+    <p>
+      Vive en ríos, pantanos, lagos y zonas inundables de agua dulce. Es más activo durante la noche, cuando sale a cazar.
+    </p>
+    <p>
+      Los caimanes cumplen una función ecológica importante al mantener el equilibrio en los ecosistemas acuáticos controlando poblaciones de peces y otros animales.
+    </p>
+    <p>
+      DATO CURIOSO: A pesar de su apariencia feroz, los caimanes suelen evitar el contacto con los humanos. Algunas especies están protegidas debido a la caza y la pérdida de hábitat.
+    </p>
+  </section>
+  <aside style="background-color:#9abf92">
+    <h3>ALIMENTACIÓN</h3>
+    <p>Los caimanes son carnívoros. Su dieta incluye peces, aves, pequeños mamíferos, crustáceos y reptiles. Utilizan una emboscada sigilosa para atrapar a sus presas. Sus fuertes mandíbulas pueden triturar huesos con facilidad.</p>
+  </aside>
+</div>
+<footer>
+  <small>DISEÑADO POR: YANEZ CHUMAP MIGUEL FROILAN</small>
+</footer>
+</body>
+</html>
